@@ -11,6 +11,28 @@ Tags: one-column, two-columns, fluid-layout, responsive-layout, full-width-templ
 Text Domain: solofolio
 */
 
+.current_page_item a
+{
+   margin-left: 0.5rem;
+}
+
+.current_page_item:before
+{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-color: #c300fb;
+    content: " ";
+    margin: 4px -10px 0px -15px;
+    
+    
+}
+
+.current_page_item
+{
+    margin-left: 1rem !important;
+}
+
 * {
   margin: 0;
   padding: 0;

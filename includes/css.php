@@ -1,4 +1,7 @@
 <?php
+
+ $mycolor="red";
+ 
 function solofolio_css() {
   $layout_spacing                 = get_theme_mod('solofolio_layout_spacing',                 '40');
   $header_width                   = get_theme_mod('solofolio_header_width',                   '280');
