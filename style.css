@@ -18,12 +18,12 @@ Text Domain: solofolio
 
 .current_page_item:before
 {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     position: absolute;
     background-color: #c300fb;
     content: " ";
-    margin: 4px -10px 0px -15px;
+    margin: 6px -10px 0px -15px;
     
     
 }
@@ -895,6 +895,13 @@ input:focus, textarea:focus, button:focus { outline: none }
   .single-post .pagination-nav .left { margin-bottom: 1rem }
   .single-post .pagination-nav .right h4 { text-align: left }
   .entry img { max-width: 100% }
+  
+  
+  .current_page_item:before
+  {
+      content: none;
+  }
+  
 }
 
 /* Heights Layout */

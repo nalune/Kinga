@@ -1,7 +1,7 @@
 </div>
 
 <div class="footer">
-    <span> (c) Kinga Mila 2015 </span>
+    <span> &copy; Kinga Mila <?php echo date("Y"); ?> </span>
 </div>
 
 <?php
